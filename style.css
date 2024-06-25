@@ -1,0 +1,116 @@
+
+*{
+    margin: 0px;
+    font-family: 'inter';}
+
+.logo-wrapper{
+    max-width: 150px;
+    max-height: 150px;
+    margin: 16px;}
+
+.content-wrapper{ 
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    gap: 16px;
+}
+    
+
+.hero-sct{
+    background-image: url(/imagens/1.hero/bg-hero.svg);
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #EAECE5;}
+
+.sct-2{
+    background-color: #EAECE5;
+    color: #122235;
+    height: 170px;
+    display: flex;
+    width: 100%;}
+
+.content-row{
+    display: grid;
+    grid-auto-flow: column; 
+    columns: auto;
+    height: 100%;
+    align-items: center;
+    margin: auto;
+    width: 60%;}
+
+.ctn-small{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;}
+
+.twocolumn{
+    display: grid;
+    grid-auto-flow: column; 
+    columns: auto;
+    align-items: center;
+    gap: 24px;
+    padding: 32px 16px 16px 16px;
+}
+    
+.txtcontent-wrapp{
+    gap: 16px;
+    height: auto;
+}
+
+.testemonial{
+    background-color: #247BA0;
+    height: 60vh;
+}
+
+.headtitle{
+    padding: 32px;
+}
+
+.ctrheading2{
+    text-align: center;
+    color: white;
+}
+#carroussel{
+   display: grid;
+   grid-auto-flow: column;
+}
+
+#setaesquerda{
+    display: none;
+}
+
+.arrow-wrapp{
+    padding: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-wrapp2{
+    padding: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#Bruna{
+    display: none;
+}
+.seta{
+    cursor: pointer;   
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+.form-sct{
+height: 70vh;
+}
+.ctrheading-a-center{
+    text-align: center;
+    
+}
